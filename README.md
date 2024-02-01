@@ -1,2 +1,2 @@
-# I-slot.github.io
+# ogun0054.github.io
 html-assignment
