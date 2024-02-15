@@ -1,0 +1,38 @@
+body{
+    font-size: 18px;
+}
+
+header,footer{
+    background-color: tomato;
+}
+
+nav > ul li{
+    list-style: none;
+    display: inline;
+}
+
+nav > ul li a{
+    text-decoration: none;
+    background-color: aquamarine;
+    border: 2px solid white;
+}
+
+nav > ul li a:hover{
+    background-color: white;
+}
+
+.site-heading{
+    color: tomato;
+}
+
+#my-image{
+    box-shadow: 0 0 2px 1px;
+}
+
+section > ul li{
+    list-style: square;
+}
+
+section li:nth-child(odd){
+  background-color: aquamarine;
+}
