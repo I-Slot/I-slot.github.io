@@ -9,12 +9,14 @@ header,footer{
 nav > ul li{
     list-style: none;
     display: inline;
+    
 }
 
 nav > ul li a{
     text-decoration: none;
     background-color: aquamarine;
     border: 2px solid white;
+    
 }
 
 nav > ul li a:hover{

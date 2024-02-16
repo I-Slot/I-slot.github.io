@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4</title>
+</head>
+<body>
+    <header> 
+        <h1>Week 4 Demo</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.google.com" target="_blank">Google it!</a></li>
+                <li><a href="about.html" >About Me</a></li>
+                <li><a href="about.html" >Home</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+   
+   <main>
+    <section>
+        <h2>Forms</h2>
+        <!-- methods in form of 2 types
+            1 get
+            2 post
+         -->
+         <form action="index.html" method="get">
+            <div>
+                <label for="fullname">Full Name</label>
+                <input type="text" placeholder="Enter your name" id="fullname" name="fname">
+            </div> <br>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="msg" id="message" cols="30" rows="5"></textarea>
+            </div> <br>
+
+            <div>
+                <label for="program">Program Choice</label>
+                <select name="pgm" id="program">
+                    <option value="madd" selected>Mobile Design and Development</option>
+                    <option value="cp" >Computer Programming</option>
+                    <option value="imd">Interactive Media Design</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Experience</p>
+                <label for="wd">Web Design</label>
+                <input type="checkbox" id="wd" name="web" checked>
+                <label for="gd">Graphics Design</label>
+                <input type="checkbox" id="gd" name="Graphics">
+            </div>
+
+            <div>
+                <p>Do you want a copy?</p>
+                <label for="positive">Yes</label>
+                <input type="radio" id="positive" name="reply" value="y">
+                <label for="positive">No</label>
+                <input type="radio" id="negative" name="reply" value="n">
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+           
+         </form>
+    </section>
+    <section>
+        <h2>Tables</h2>
+        <table>
+            <caption>Student Information</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>ID Number</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Zainab</td>
+                    <td>041152915</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>Muhammad</td>
+                    <td>041152970</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Ismail</td>
+                    <td>041152976</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Images</h2>
+        <p>View more information <a href="#more">here</a></p>
+    
+        <img src="./images/coffee-shop.jpg" width="370px">
+        <p id="more"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero deserunt provident voluptate ea, minus doloremque voluptates? Saepe quod dolor et modi voluptates perferendis, dicta eligendi odit, laudantium eius cum at.</p>
+    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero deserunt provident voluptate ea, minus doloremque voluptates? Saepe quod dolor et modi voluptates perferendis, dicta eligendi odit, laudantium eius cum at.</p>
+    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero deserunt provident voluptate ea, minus doloremque voluptates? Saepe quod dolor et modi voluptates perferendis, dicta eligendi odit, laudantium eius cum at.</p>
+    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero deserunt provident voluptate ea, minus doloremque voluptates? Saepe quod dolor et modi voluptates perferendis, dicta eligendi odit, laudantium eius cum at.</p>
+    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero deserunt provident voluptate ea, minus doloremque voluptates? Saepe quod dolor et modi voluptates perferendis, dicta eligendi odit, laudantium eius cum at.</p>
+   </section>
+
+   </main>
+    
+</body>
+</html>

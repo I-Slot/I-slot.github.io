@@ -1,0 +1,39 @@
+/* this is the styling start */
+body{
+    background-color: tomato;
+    color: white;
+}
+
+h1, h2{
+    color: #0C2D57;
+}
+
+article h2{
+    color: #3652AD;
+}
+
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Dots (.) for class */
+.products{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* hastag # for id */
+#products{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main p{
+    font-style: italic;
+}
+
+main > p{
+    font-style: bold;
+}
+
