@@ -7,7 +7,8 @@
     <title>ogun0054 midterm</title>
   </head>
   <body>
-    <!-- Header Section -->
+    <div class="container">
+      <!-- Header Section -->
     <header>
       <h1>Lone Starfish</h1>
     </header>
@@ -72,30 +73,48 @@
   <!-- Starfish ends here -->
 
 <!-- Form start here -->
+<h3>Contact to learn more.</h3>
     <form action="">
       <div class="name">
         <label for="name">Your Name</label>
-        <input type="text" name="name" id="name">
+        <input type="text" name="name" id="name" class="input">
       </div>
 
       <div class="email">
         <label for="name">Your Email</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" class="input">
       </div>
 
       <div class="message">
         <label for="name">Your message</label>
-        <input type="text" name="message" id="message">
+        <textarea name="" id="" cols="30" rows="10" class="msg"></textarea>
       </div>
 
-      <div>
+      <div class="radio-input-section">
         <p>Would you like to visit statfish?</p>
-        <input type="radio">
-        <label for="positive">Yes</label><br>
-        <input type="radio">
-        <label for="negative">No</label><br>
-        <input type="radio">
-        <label for="maybe">Maybe</label><br>
+
+       
+          <div class="options">
+            <label for="positive">Yes</label>
+            <input type="radio" name="option">
+
+            <label for="negative">No</label>
+            <input type="radio" name="option">
+
+            <label for="maybe">Maybe</label>
+            <input type="radio" name="option">
+          </div>
+  
+          <!-- <div class="options">
+            <input type="radio">
+            <label for="negative">No</label><br>
+          </div> -->
+  
+          <!-- <div class="options">
+            <input type="radio">
+            <label for="maybe">Maybe</label><br>
+          </div>
+        -->
       </div>
 
       <button>SEND</button>
@@ -108,5 +127,8 @@
       <p>&#169; Lone Starfish</p>
     </footer>
 <!-- Footer section ends here -->
+
+    </div>
+    
   </body>
 </html>

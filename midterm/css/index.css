@@ -3,6 +3,16 @@ body{
     font-family: sans-serif;
 }
 
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+
+}
+
 header{
     background-color: aqua;
     background-image: url("../images/lone-starfish-wide.jpg");
@@ -36,16 +46,78 @@ nav ul li a{
     font-weight: bold;
 }
 
-.border-left{
-    border-right: solid 2px black;
-}
-
 article div > img{
     width: 10rem;
     float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 article div > p{
     /* float: right;
     display: inline; */
+    margin-left: 5px;
+}
+
+ h2, h3,p{
+    margin-left: 10px;
+}
+
+
+form{
+    border: 2px solid black;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+label{
+    display: block;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.input{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+
+.msg{
+    height: 100px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.radio-input-section > p{
+  margin: 10px;
+}
+
+.radio-input-section > div{
+    /* display: flex; */
+    display: inline-flex;
+    /* background-color: red; */
+}
+
+.options{
+    
+}
+
+button{
+    margin: 30px;
+    padding: 5px;
+    background-color: #aad4cf;
+}
+
+footer >p{
+    text-align: right;
+    margin-right: 10px;
+}
+
+footer{
+    height: 40px;
 }
