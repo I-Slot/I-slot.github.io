@@ -1,0 +1,26 @@
+html {
+  font-size: 36px;
+}
+
+/* apply box sizing to ALL elements */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aqua;
+}
+
+.wrapper {
+  background-color: white;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+  padding: 10px;
+  border: 5px dotted black;
+  margin: 20px;
+}
