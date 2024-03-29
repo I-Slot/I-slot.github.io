@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+p {
+  color: coral;
+}
+
+.box {
+  padding: 1rem;
+  background-color: aqua;
+  /* margin: 5px; */
+}
+
+/* nav shim */
+@media screen and (min-width: 700px) and (max-width: 750px) {
+  nav ul {
+    font-size: 1.5rem;
+    color: red;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 700px) {
+  .wrapper {
+    width: 700px;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+  p {
+    color: blue;
+    font-size: 0.8rem;
+  }
+
+  .box {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .wrapper {
+    width: 1000px;
+  }
+
+  .box {
+    width: 33.3%;
+  }
+}

@@ -1,12 +1,12 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #aad4cf;
   font-family: sans-serif;
 }
 
 /* apply box sizing to ALL elements */
-* {
-  box-sizing: border-box;
-}
 
 /* Container styling */
 .container {
@@ -69,10 +69,9 @@ nav ul li a {
 
 /* Lonestar fish floating beside the the text */
 article div > img {
-  width: 10rem;
+  width: 160px;
   float: left;
   margin-left: 20px;
-  margin-right: 20px;
   margin-bottom: 10px;
 }
 
@@ -121,9 +120,7 @@ label {
 }
 
 .radio-input-section > div {
-  /* display: flex; */
   display: inline-flex;
-  /* background-color: red; */
 }
 
 /* button styling */

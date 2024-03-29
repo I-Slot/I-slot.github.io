@@ -12,7 +12,7 @@
 
       <header>
         <!-- Required way of displaying our picture in the project -->
-        <div class="hero-display">
+        <div class="hero-display" id="top">
           <div class="hero-text">
             <h1>Lone Starfish</h1>
           </div>
@@ -23,7 +23,7 @@
       <!--Navigation bar  -->
       <nav>
         <ul>
-          <li class="border-left"><a href="#" class="border">HOME</a></li>
+          <li class="border-left"><a href="#top" class="border">HOME</a></li>
           <li class="border-left"><a href="#story" class="border">STORY</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
@@ -94,7 +94,7 @@
 
       <div id="contact">
         <h3>Contact to learn more.</h3>
-        <form action="">
+        <form action="index.html" method="post" name="contact">
           <div class="name">
             <label for="name">Your Name</label>
             <input type="text" name="name" id="name" class="input" required />
@@ -107,13 +107,20 @@
               name="email"
               id="email"
               class="input"
+              placeholder="John Doe"
               required
             />
           </div>
 
           <div class="message">
             <label for="name">Your message</label>
-            <textarea name="" id="" cols="30" rows="10" class="msg"></textarea>
+            <textarea
+              name="message"
+              id="msg"
+              cols="30"
+              rows="10"
+              class="msg"
+            ></textarea>
           </div>
 
           <div class="radio-input-section">
@@ -121,25 +128,15 @@
 
             <div class="options">
               <label for="positive">Yes</label>
-              <input type="radio" name="option" />
+              <input type="radio" name="option" id="positive" />
 
               <label for="negative">No</label>
-              <input type="radio" name="option" />
+              <input type="radio" name="option" id="negative" />
 
               <label for="maybe">Maybe</label>
-              <input type="radio" name="option" />
+              <input type="radio" name="option" id="maybe" />
             </div>
-
-            <!-- <div class="options">
-              <input type="radio">
-              <label for="negative">No</label><br>
-            </div> -->
-
-            <!-- <div class="options">
-              <input type="radio">
-              <label for="maybe">Maybe</label><br>
-            </div>
-          --></div>
+          </div>
 
           <button>SEND</button>
         </form>
