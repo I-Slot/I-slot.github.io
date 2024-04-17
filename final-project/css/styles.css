@@ -23,10 +23,9 @@ html {
   .container > nav {
     display: block;
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
     width: 100%;
-    font-size: 1.5rem;
-    margin-top: 0;
+    font-size: 1rem;
     background-color: #222;
   }
 
@@ -34,6 +33,7 @@ html {
     display: block;
     margin-left: 10px;
     margin-top: 20px;
+    background-color: #c78c06;
   }
 
   #logo:hover {
@@ -69,8 +69,8 @@ html {
     width: 95%;
   } */
   form > input {
-    width: 80%;
-    margin: 10px;
+    width: 75%;
+    margin: auto;
     padding: 16px;
     height: 30px;
     position: relative;
@@ -86,9 +86,11 @@ html {
     background-color: #222;
     border: solid 1px #c78b07;
     position: absolute;
-    margin-top: 10px;
-    margin-left: -10px;
-    height: 36px;
+    /* margin-top: 5px; */
+    margin-bottom: 5px;
+
+    /* margin-left: -10px; */
+    height: 35px;
   }
 
   .banner {
@@ -97,6 +99,7 @@ html {
     background-size: cover;
     background-color: #c78b07;
     width: 100%;
+    margin: auto;
     height: 600px;
     margin-top: -30px;
     position: relative;
@@ -104,36 +107,38 @@ html {
 
   .overlay {
     background-color: rgba(0, 0, 0, 0.7);
-    margin: 40px;
+    margin: auto;
     height: 500px;
     position: absolute;
     /* margin: auto; */
-    width: 90%;
+    width: 100%;
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
+    margin-top: 20px;
   }
 
   .overlay h1 {
     width: 80%;
-    font-size: 3rem;
+    font-size: 1.5rem;
     /* font-weight: bold; */
     color: #fff;
-    margin-left: 70px;
-    margin-top: 30px;
+    margin-left: 30px;
+    margin-top: 100px;
   }
 
   .overlay p {
     color: #fff;
-    font: 2em;
-    margin-left: 70px;
+    font: 1em;
+    margin-left: 30px;
     width: 85%;
+    line-height: 2;
   }
 
   .overlay button {
     background-color: #c78b07;
-    height: 70px;
+    height: 50px;
     font-size: 20px;
-    margin-left: 70px;
+    margin-left: 30px;
   }
 
   .overlay button .fas {
@@ -148,9 +153,10 @@ html {
   }
 
   .about-us > div > img {
-    width: 95%;
-    margin: 20px 20px 20px 20px;
+    width: 100%;
+    margin: auto;
     /* margin: auto; */
+    margin-top: 20px;
   }
 
   .about-us-info {
@@ -162,13 +168,14 @@ html {
     background-color: #ffe6ac;
     height: auto;
     width: 100%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
   }
 
   .top-left > div > img {
     width: 95%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-top: 10px;
   }
 
@@ -192,7 +199,7 @@ html {
 
   .top-right > div > img {
     width: 95%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-top: 10px;
   }
 
@@ -227,7 +234,7 @@ html {
     background-color: #ffe6ac;
     height: auto;
     width: 100%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-bottom: 20px;
   }
 
@@ -250,18 +257,22 @@ html {
   .video p {
     width: 95%;
     margin-left: 10px;
+    font-family: "Open Sans", sans-serif;
   }
   .video h2 {
     /* width: 90%; */
     margin-left: 10px;
+    font-family: "Open Sans", sans-serif;
   }
   .web p {
     width: 95%;
     margin-left: 10px;
+    font-family: "Open Sans", sans-serif;
   }
   .web h2 {
     /* width: 90%; */
     margin-left: 10px;
+    font-family: "Open Sans", sans-serif;
   }
   .print p {
     width: 95%;
@@ -326,6 +337,7 @@ html {
 
   .vision-two p {
     padding-left: 20px;
+    font-family: "Open Sans", sans-serif;
   }
   .vision-two button {
     background: #0d1d2f;
