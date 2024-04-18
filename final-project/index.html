@@ -5,39 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Three Star Media</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- Linking to an external stylesheet -->
     <script
       src="https://kit.fontawesome.com/612cdf9254.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Linking to Font Awesome for icons -->
   </head>
+
   <body>
     <div class="container">
-      <!-- Navbar markup, conprising the logo,nav list elements and the search input -->
+      <!-- Navbar markup, comprising the logo, nav list elements, and the search input -->
       <nav>
-        <!-- <div>
-          <a href="#"><img src="./images/logo.png" alt="3-star-Media-logo" id="logo"/></a>
-        </div> -->
+        <!-- Logo -->
         <div>
           <a href="#"
-            ><img src="./images/logo.png" alt="3-star-Media-logo" id="logo"
+            ><img
+              src="./images/logo.png"
+              alt="3-star-Media-logo"
+              id="logo"
+              class="li"
           /></a>
         </div>
+        <!-- Navigation Links -->
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-
+        <!-- Search Form -->
         <form action="#">
           <input type="text" placeholder="search" />
           <button type="button" name="form">
             <i class="fas fa-search"></i>
+            <!-- Search icon -->
           </button>
         </form>
       </nav>
 
+      <!-- Banner Section -->
       <section class="banner-section">
         <div class="banner">
           <div class="overlay">
@@ -49,14 +57,17 @@
               Dolorem sint eveniet repellat?
             </p>
             <button>Connect with us<i class="fas fa-caret-right"></i></button>
+            <!-- Button with arrow icon -->
           </div>
         </div>
       </section>
 
-      <section class="about-us-section">
+      <!-- About Us Section -->
+      <section class="about-us-section" id="about-us">
         <div class="about-us">
           <div>
             <img src="./images/about-us.jpg" alt="" />
+            <!-- About Us image -->
           </div>
           <div class="about-us-info">
             <h2>About Us</h2>
@@ -74,10 +85,12 @@
         </div>
       </section>
 
-      <section class="service-section">
+      <!-- Service Section -->
+      <section class="service-section" id="services">
         <h1>Our Services</h1>
 
         <div class="top-services">
+          <!-- Digital Transformation Service -->
           <div class="top-left">
             <div>
               <img src="images/digital.jpg" alt="Digital" width="300" />
@@ -90,8 +103,10 @@
             </p>
             <button class="digital-button">
               Digital Plans<i class="fas fa-caret-right"></i>
+              <!-- Button with arrow icon -->
             </button>
           </div>
+          <!-- Marketing Service -->
           <div class="top-right">
             <div>
               <img src="images/marketing.jpg" alt="Marketing" width="300" />
@@ -104,146 +119,167 @@
             </p>
             <button class="marketing-button">
               Marketing Plans<i class="fas fa-caret-right"></i>
+              <!-- Button with arrow icon -->
             </button>
           </div>
         </div>
-
-        <div class="bottom-services">
-          <div class="video">
-            <img src="images/video.jpg" alt="Video" width="200" />
-            <h2>Video Production</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-              impedit, necessitatibus illum eum quod corrupti dolores vel
-              tempora nostrum animi.
-            </p>
-            <button class="service-video">
-              Video Plans<i class="fas fa-caret-right"></i>
-            </button>
+        <div>
+          <!-- Other Services -->
+          <div class="bottom-services">
+            <!-- Video Production Service -->
+            <div class="video">
+              <img src="images/video.jpg" alt="Video" width="200" />
+              <h2>Video Production</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
+                impedit, necessitatibus illum eum quod corrupti dolores vel
+                tempora nostrum animi.
+              </p>
+              <button class="service-video">
+                Video Plans<i class="fas fa-caret-right"></i>
+                <!-- Button with arrow icon -->
+              </button>
+            </div>
+            <!-- Web Development Service -->
+            <div class="web">
+              <img src="images/web.jpg" alt="Web" width="200" />
+              <h2>Web Development</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
+                impedit, necessitatibus illum eum quod corrupti dolores vel
+                tempora nostrum animi.
+              </p>
+              <button class="service-web">
+                Web Plans<i class="fas fa-caret-right"></i>
+                <!-- Button with arrow icon -->
+              </button>
+            </div>
+            <!-- Print Service -->
+            <div class="print">
+              <img src="images/print.jpg" alt="Print" width="200" />
+              <h2>Print</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
+                impedit, necessitatibus illum eum quod corrupti dolores vel
+                tempora nostrum animi.
+              </p>
+              <button class="service-print">
+                Print Plans<i class="fas fa-caret-right"></i>
+                <!-- Button with arrow icon -->
+              </button>
+            </div>
           </div>
-
-          <div class="web">
-            <img src="images/web.jpg" alt="Web" width="200" />
-            <h2>Web Development</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-              impedit, necessitatibus illum eum quod corrupti dolores vel
-              tempora nostrum animi.
-            </p>
-            <button class="service-web">
-              Web Plans<i class="fas fa-caret-right"></i>
-            </button>
+          <!-- Vision Section -->
+          <div class="vision">
+            <img src="images/vision.jpg" alt="Vision" />
+            <section class="vision-two">
+              <h2>Our Vision</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
+                impedit, necessitatibus illum eum quod corrupti dolores vel
+                tempora nostrum animi.
+              </p>
+              <button>Learn More<i class="fas fa-caret-right"></i></button>
+              <!-- Button with arrow icon -->
+            </section>
           </div>
-
-          <div class="print">
-            <img src="images/print.jpg" alt="Print" width="200" />
-            <h2>Print</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-              impedit, necessitatibus illum eum quod corrupti dolores vel
-              tempora nostrum animi.
-            </p>
-            <button class="service-print">
-              Print Plans<i class="fas fa-caret-right"></i>
-            </button>
-          </div>
-        </div>
-
-        <div class="vision">
-          <img src="images/vision.jpg" alt="Vision" />
-          <section class="vision-two">
-            <h2>Our Vision</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-              impedit, necessitatibus illum eum quod corrupti dolores vel
-              tempora nostrum animi.
-            </p>
-            <button>Learn More<i class="fas fa-caret-right"></i></button>
         </div>
       </section>
 
-      <section class="team">
+      <!-- Team Section -->
+      <section class="team" id="team">
         <h2>Our Team</h2>
         <div class="team-items">
           <div>
-            <img src="images/john.jpg" alt="John Rite" width="300"/>
+            <img src="images/john.jpg" alt="John Rite" width="300" />
           </div>
           <div class="owners">
-                <h2>John Doe</h2>
-                <h3 class="ceo">CEO and Co-owner</h3>
-                <hr>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-                  doloribus illo quidem laboriosam enim molestiae, nulla vero
-                  omnis? Laborum, excepturi?
-                </p>
+            <h2>John Doe</h2>
+            <h3 class="ceo">CEO and Co-owner</h3>
+            <hr />
+            <!-- Horizontal line -->
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+              doloribus illo quidem laboriosam enim molestiae, nulla vero omnis?
+              Laborum, excepturi?
+            </p>
           </div>
           <div>
-            <img src="images/bob.jpg" alt="Bob Rite" width="300"/>
+            <img src="images/bob.jpg" alt="Bob Rite" width="300" />
           </div>
           <div class="owners">
             <h2>Bob Rite</h2>
-          <h3 class="caption-two">CFO and Co-worker</h3>
-          <hr />
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-            doloribus illo quidem laboriosam enim molestiae, nulla vero
-            omnis? Laborum, excepturi?
-          </p>
+            <h3 class="caption-two">CFO and Co-worker</h3>
+            <hr />
+            <!-- Horizontal line -->
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+              doloribus illo quidem laboriosam enim molestiae, nulla vero omnis?
+              Laborum, excepturi?
+            </p>
           </div>
         </div>
-
       </section>
 
-      <section>
-        <h2>Contact Us</h2>
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2 class="contact-h2">Contact Us</h2>
         <div class="contact">
-         <div class="red">
-          <form action="/action_page.php" method="get">
-            <p class="message">Send us a message</p>
-            <div>
-              <label for="name">Fullname</label>
-              <input type="text" id="name" />
-            </div>
-    
-            <div>
-              <label for="email">Email</label>
-              <input type="text" id="email" />
-            </div>
-    
-            <div class="msg">
-              <label for="msg">Message</label>
-              <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
-            </div>
-            <button>Send</button>
-          </form>
-         </div>
-         <div class="blue"><div>
-          <table>
-            <h2>Hours of Operation</h2>
-            <tr>
-              <td class="days">Days</td>
-              <td class="hours">Hours</td>
-            </tr>
-            <tr>
-              <td class="date">Monday-Friday</td>
-              <td class="time">9 am - 6 pm</td>
-            </tr>
-            <tr>
-              <td class="date">Saturday - Sunday</td>
-              <td class="time">Closed</td>
-            </tr>
-          </table>
-        </div></div>
-         <div class="green">
-          <div>
-            <h2>Location</h2>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.915258700108!2d-75.75914377318216!3d45.349667566398914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0722395fc63d%3A0x35c46b5ff47a522!2sAlgonquin%20College%2C%201385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G%203G7!5e0!3m2!1sen!2sca!4v1617429312160!5m2!1sen!2sca"
-              width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+          <!-- Contact Form -->
+          <div class="red">
+            <form action="/action_page.php" method="get">
+              <p class="message">Send us a message</p>
+              <div>
+                <label for="name">Fullname</label>
+                <input type="text" id="name" />
+              </div>
+
+              <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" />
+              </div>
+
+              <div class="msg">
+                <label for="msg">Message</label>
+                <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+              </div>
+              <button>Send</button>
+            </form>
           </div>
-         </div>
-    
+          <!-- Hours of Operation -->
+          <div>
+            <div>
+              <h2>Hours of Operation</h2>
+              <table>
+                <tr>
+                  <td class="days">Days</td>
+                  <td class="hours">Hours</td>
+                </tr>
+                <tr>
+                  <td class="date">Monday-Friday</td>
+                  <td class="time">9 am - 6 pm</td>
+                </tr>
+                <tr>
+                  <td class="date">Saturday - Sunday</td>
+                  <td class="time">Closed</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <!-- Location -->
+          <div class="green">
+            <div>
+              <h2>Location</h2>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.915258700108!2d-75.75914377318216!3d45.349667566398914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0722395fc63d%3A0x35c46b5ff47a522!2sAlgonquin%20College%2C%201385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G%203G7!5e0!3m2!1sen!2sca!4v1617429312160!5m2!1sen!2sca"
+                width="450"
+                height="400"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
         </div>
       </section>
 
